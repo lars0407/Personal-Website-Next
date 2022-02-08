@@ -15,20 +15,27 @@ const Home = () => {
               src="/playground_assets/Image244473-mv6i-200h.png"
               className="image"
             />
-            <h1 className="text">Hey, Im Lars.</h1>
+            <h1 className="text">Hey, I`m Saskia.</h1>
             <span className="text1">
-              Im a student and NoCode-Enthusiast based in Krefeld. I create
+              I`m a student and NoCode-Enthusiast based in Krefeld. I create
               digital products, brands, and experiences. This is my personal
               piece of the Internet, where I write about my journey of becoming
               a founder, builder and creator.
             </span>
           </div>
           <div className="section-social-icons">
-            <img
-              alt="image"
-              src="/playground_assets/twitter-200h.png"
-              className="image1"
-            />
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="link"
+            >
+              <img
+                alt="image"
+                src="/playground_assets/twitter-200h.png"
+                className="image1"
+              />
+            </a>
             <img
               alt="image"
               src="/playground_assets/linkedin%20%5B2%5D-200h.png"
@@ -36,7 +43,7 @@ const Home = () => {
             />
             <a
               href="mailto:lars@foundstar.net?subject=Hi, nice to meet you!"
-              className="link"
+              className="link1"
             >
               <img
                 alt="image"
@@ -98,7 +105,7 @@ const Home = () => {
               />
             </div>
             <span className="text7">
-              Let`s talk. Id love to speak about startups, digital startups,
+              Let`s talk. I`d love to speak about startups, digital startups,
               digital products design, how to build them, and a bunch of other
               related topics.
             </span>
@@ -114,7 +121,7 @@ const Home = () => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
-            background-color: var(--dl-color-gray-500);
+            background-color: #181818;
           }
           .main-wrapper {
             flex: 0 0 auto;
@@ -156,9 +163,13 @@ const Home = () => {
             margin-top: 20px;
             align-items: flex-start;
           }
+          .link {
+            display: contents;
+          }
           .image1 {
             width: 30px;
             object-fit: cover;
+            text-decoration: none;
           }
           .image2 {
             width: 30px;
@@ -166,7 +177,7 @@ const Home = () => {
             margin-left: 10px;
             margin-right: 10px;
           }
-          .link {
+          .link1 {
             display: contents;
           }
           .image3 {
